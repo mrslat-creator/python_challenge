@@ -28,4 +28,4 @@ for key, value in candidates_votes.items():
     if value > most_votes:
         most_votes=value
         print(f"{key}:{most_votes}")
-print(most_votes)
+print(vote_total)
